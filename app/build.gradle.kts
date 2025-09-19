@@ -40,6 +40,10 @@ android {
 }
 
 dependencies {
+    //DI FRAMEWORK
+    implementation(libs.io.insert.koin)
+    //NAVIGATION
+    implementation(libs.androidx.navigation)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
